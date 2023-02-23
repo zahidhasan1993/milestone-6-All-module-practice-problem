@@ -129,5 +129,5 @@ const user = {
     }
 } 
 
-const userFloor = user.address?.stret?.second;
+const userFloor = user.address.street.second;
 console.log(userFloor);
