@@ -1,0 +1,4 @@
+  <h4>Area : ${user.area}</h4>
+            
+            <h4>Capital : ${user.capital ? user.capital[0] : 'no-capital'}</h4>
+            <p>Map : ${user.maps.googleMaps}</p> 
