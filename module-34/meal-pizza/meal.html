@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaZahid</title>
+    <!-- link daisy UI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="container mx-auto">
+
+    <main>
+        <section>
+            <div class="flex justify-center items-center my-10 gap-5">
+                <input type="text" id="search-field" placeholder="Type here" class="input w-full max-w-xs" />
+                <!-- <input type="text" name="" > -->
+                <button onclick="searchMeal()" id="search-button" class="btn btn-accent">Search</button>
+            </div>
+
+        </section>
+        <!-- card section  -->
+        <section id="cards" class="mt-5 grid grid-cols-2 gap-[2rem]">
+            
+        </section>
+    </main>
+
+
+
+    <!-- daisyUi js  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- my js -->
+    <script src="./js/meal.js"></script>
+</body>
+</html>
+
+
